@@ -1,0 +1,71 @@
+body{     
+    font-family: Arvo, serif;     
+    background: url(docker-bg.png) no-repeat center center;     
+    background-attachment: fixed;     
+    background-size: cover; 
+} 
+ 
+/*Style brand*/ 
+.logo{     
+    height: 30px;    
+} 
+ 
+ 
+/*Style jumbotron*/ 
+.jumbotron{     
+    background-color: transparent;     
+    color: #fff;     
+    text-align: center;     
+    margin: 0;    
+    padding: 10px;
+    letter-spacing: 1.5px;
+} 
+
+ 
+/*limit the width of the icons section*/ 
+.container{      
+    max-width: 1000px;    
+} 
+
+ 
+.col-md-4{     
+    text-align: center;     
+    color:#fff; } 
+ 
+.icons p{     
+    font-size: 15px; 
+    color: aliceblue;     
+} 
+.icons h2{ 
+    color: aliceblue;
+}
+
+    /*Style contact button*/ 
+    .contact{     
+        text-align: center;   
+        margin-left: 0px;  
+        margin-top: 90px;     
+        margin-bottom: 100px; 
+    } 
+ 
+.btn{     
+    background-color: rgb(88, 91, 92);     
+    border: none;     
+    border-radius: 10px;     
+    color: #fff;     
+    font-size: 18px;     
+    padding: 10px 30px;     
+    letter-spacing:.1px; 
+} 
+ 
+.btn:hover{     
+    background-color: rgba(0, 0, 0, 0.5);      
+    color: #fff;     
+    border: none; 
+}  
+/*use media queries to change icons size in small devices*/ 
+@media (max-width: 768px){     
+}
+.icons{
+    margin-top: 100px;
+}
